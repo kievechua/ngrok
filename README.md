@@ -66,7 +66,7 @@ Note on http tunnels: by default bind_tls is true, so whenever you use http prot
 ## emitter
 Also you can use ngrok as an event emitter, it fires "connect", "disconnect" and "error" events
 ```javascript
-ngrok.once('connect', function (url) {};
+ngrok.once('connect', function (url) {});
 ngrok.connect(port);
 ```
 
